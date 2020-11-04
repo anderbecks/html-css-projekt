@@ -1,5 +1,4 @@
-@media screen and (max-width: 600px) {
-
+@media screen and (min-width: 601px) {
 .myFont{
     font-family: 'Righteous', cursive !important;
     color: #FBC348 !important;
@@ -9,12 +8,12 @@ h1{
 }
 
 .myList{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .myPresentation{
     
-    margin-top: 15px;
+    margin-top: 30px;
     margin-bottom: 40px;
     padding: 10px;
 }
@@ -22,7 +21,7 @@ h1{
 .myNews{
     box-sizing: border-box;
     border: 1px solid gray;
-    padding: 5px;
+    padding: 10px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -70,7 +69,7 @@ h1{
     box-sizing: border-box;
     border: 1px solid gray;
     padding: 5px;
-    margin: 5px;
+    margin: 20px;
     background-color: white;
     width: 350px;
     text-align: center;
@@ -144,13 +143,19 @@ h1{
 
   #gmap_canvas1{
     width: 301px;
-    height:203px;
+    height:100%;
   
   }
   .mapouter{
-      position:relative;text-align:right;height:203px;width:301px;
+      position:relative;
+      text-align:right;
+      height:201px;
+      width:301px;
     }
   .gmap_canvas {
-      overflow:hidden;background:none!important;height:203px;width:301px;
+      overflow:hidden;
+      background:none!important;
+      height:100%;
+      width:301px;
     }
 }
